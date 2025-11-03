@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Ecommerce.Api.Data;
-using Ecommerce.Api.Repositories;//here im connecting sql server
+using Ecommerce.Api.Repositories;
 
 var builder = WebApplication.CreateBuilder(args); 
 
